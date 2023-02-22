@@ -31,7 +31,7 @@ function Login(): JSX.Element {
       <ScrollView
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
-        <Header />
+        <Header Subtitle={'Sign in to your account'} />
         <View
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
